@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contoh Tampilan</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+		nav {
+			background-color: #ccc;
+			display: flex;
+			justify-content: space-between;
+			padding: 10px;
+		}
+		nav a {
+			color: #333;
+			text-decoration: none;
+			padding: 10px;
+		}
+		nav a:hover {
+			background-color: #333;
+			color: #fff;
+		}
+		.sidebar {
+			background-color: #f2f2f2;
+			height: 100vh;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 200px;
+			padding: 20px;
+		}
+		.sidebar ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		.sidebar li {
+			margin-bottom: 10px;
+		}
+		.sidebar a {
+			color: #333;
+			text-decoration: none;
+		}
+		.sidebar a:hover {
+			color: #000;
+		}
+		.content {
+			margin: 20px 0 0 220px;
+			padding: 20px;
+		}
+		footer {
+			background-color: #333;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Contoh Tampilan</h1>
+	</header>
+	<nav>
+		<a href="#">Menu 1</a>
+		<a href="#">Menu 2</a>
+		<a href="#">Menu 3</a>
+		<a href="#">Menu 4</a>
+		<a href="#">Menu 5</a>
+	</nav>
+	<div class="sidebar">
+		<ul>
+			<li><a href="#">Sidebar Menu 1</a></li>
+			<li><a href="#">Sidebar Menu 2</a></li>
+			<li><a href="#">Sidebar Menu 3</a></li>
+			<li><a href="#">Sidebar Menu 4</a></li>
+			<li><a href="#">Sidebar Menu 5</a></li>
+		</ul>
+	</div>
+	<div class="content">
+		<h2>Selamat Datang</h2>
+		<p>Ini adalah contoh tampilan dengan header, navbar, sidebar, dan footer.</p>
+		<p>Silahkan klik pada menu atau sidebar untuk navigasi.</p>
+	</div>
+	<footer>
+		<p>Hak Cipta &copy; 2023 Contoh Tampilan.</p>
+	</footer>
+</body>
+</html>
