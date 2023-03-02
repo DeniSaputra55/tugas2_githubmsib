@@ -1,0 +1,46 @@
+p{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8; 
+}
+.contact-form-field{margin-bottom:20px;}
+.contact-form-field-message{margin-bottom:0;}
+.contact-form input,
+.contact-form textarea{border:1px solid #e0e0e0;border-radius:3px;}
+.contact-form-label{margin:0 0 10px 0;}
+.contact-form-label span{color:red;}
+#ContactForm1_contact-form-name,
+#ContactForm1_contact-form-email {
+  width: 300px;
+  height: 20px;
+  max-width: 95.5%;
+  padding: 2%;
+}
+#ContactForm1_contact-form-email-message {
+  width: 93.5%;
+  height: 150px;
+  padding: 3%;
+  resize: none;
+}
+#ContactForm1_contact-form-submit {
+  border:none;
+  padding:10px 30px;
+  font-size:20px;
+  background:#e7600c;
+  color:#fff;
+  margin-top:20px;
+  border-radius:3px;
+  width:auto;
+  font-size:15px;
+  font-family:inherit;
+}
+#ContactForm1_contact-form-error-message {
+  text-align:center;
+  padding:0px 20px;
+  margin-top:15px;
+  color:#D41C1C;
+}
+#ContactForm1_contact-form-error-message img {
+  display:none;
+}

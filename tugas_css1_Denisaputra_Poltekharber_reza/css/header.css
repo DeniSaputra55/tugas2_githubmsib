@@ -1,0 +1,14 @@
+header {
+    background-color: white;
+    color: whitesmoke;
+    padding: 5px;
+    text-align: center;
+    position: fixed;
+    background-image: url("../img/header.jpg");
+   
+    width: 100%;
+}
+header img{
+	float: left;
+	height: 65px;
+}
