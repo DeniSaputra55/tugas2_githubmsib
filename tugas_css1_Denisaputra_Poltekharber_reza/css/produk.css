@@ -1,0 +1,17 @@
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10;
+
+}
+p{
+    color: black;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 8; 
+}
+fieldset,legend {
+        
+        border: red groove 1px;
+    }

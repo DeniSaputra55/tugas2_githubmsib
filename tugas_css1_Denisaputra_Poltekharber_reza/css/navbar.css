@@ -1,0 +1,21 @@
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    border: 0px;
+
+}
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 1px;
+   
+}
+nav a:hover {
+    background-color: #333;
+    color: #fff;
+}
+body{
+    background-color: #35A9DB;
+}
